@@ -1,0 +1,117 @@
+header{
+    height: 120px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    box-shadow: 0 10px 25px -22px black;
+    z-index: 10;
+    bottom: 35px;
+    background-color: #f0efef;
+    
+}
+
+.container__header{
+    max-width: 100%;
+    height: 100%;
+    margin:auto;
+    padding: 40px;
+    padding-top:80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    position: relative;
+}
+
+.logo img{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.menu{
+    height: 80px;
+}
+.menu nav{
+    height: 100%;
+}
+
+.menu nav ul{
+    display: flex;
+    z-index: 10;
+}
+
+.menu nav ul li{
+    list-style: none;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menu nav ul li a{
+    font-size: 17px;
+    text-decoration: none;
+    color: #000;
+    transition: opacity 300ms; 
+    position: relative;
+}
+
+.menu nav ul li a:after{
+    opacity: 0.4;
+    content:"";
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background: #68249f;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 0.2s ease-in-out;
+}
+
+.menu nav ul li a:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.header__register,
+.btn__header-register{
+    position:relative;
+    margin-right: 50px;
+    margin-bottom: 33px;
+}
+
+
+.btn__header-register,
+.btn__register-cover{
+    padding:14px 50px;
+    margin-right: 5px;
+    border: none;
+    background: #000;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background, color, 300ms;
+}
+
+
+.btn__header-register:hover,
+.btn__register-cover:hover{
+    background: #c180f7;
+    color: #000;
+}
+
+
+#icon_menu{
+    display: none;
+}

@@ -1,0 +1,20 @@
+/* MISC */
+
+@import url(misc/normalize.css);
+
+/* PARTIALS */
+
+@import url(partials/header.css);
+@import url(partials/footer.css);
+@import url(partials/search-bar.css);
+
+/* PAGES */
+
+@import url(pages/home.css);
+@import url(pages/materias.css);
+@import url(pages/materias/analitica.css);
+@import url(pages/materias/general.css);
+@import url(pages/materias/industrial.css);
+@import url(pages/materias/inorganica.css);
+@import url(pages/materias/instrumental.css);
+@import url(pages/materias/organica.css);

@@ -1,0 +1,3 @@
+            <div class="header__register">
+                <input type="button" class="btn__header-register" value="Registrarse (proximamente)">
+            </div>
