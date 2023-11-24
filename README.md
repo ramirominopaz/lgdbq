@@ -1,4 +1,4 @@
-<h1 align="center"> Su título aquí </h1>
+<h1 align="center"> La Guía Del Buen Químico </h1>
 <span><img href="media/icono.png"></span>
 
 <h2>¿Que es La Guía del Buen Químico?</h2>
